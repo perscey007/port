@@ -90,6 +90,7 @@ ul.header-ul>li>a {
 
 .h11 {
     transform: translateY(30rem);
+    padding: 10%;
 }
 
 #header-ham {
