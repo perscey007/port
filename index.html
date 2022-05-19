@@ -19,7 +19,7 @@
 <body>
     <section class="section1">
         <header>
-            <div style="background-color: bisque;" class="header-div">
+            <div style="background-color: rgba(255, 228, 196, 0);" class="header-div">
                 <div class="header-left">
                     <div class="header-left-icon">
                         <img src="icons8-portfolio-96.png" alt="" style="width: 60px;">
@@ -27,8 +27,25 @@
 
                     </div>
                 </div>
+
                 <div class="header-right">
+                    <button type="button" onclick="myFunction()" class="header-ham">
+                        <span class="header-ham">
+                            <img src="/icon-hamburger.svg" alt="">
+                        </span>
+                    </button>
                     <ul class="header-ul">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li>
+                            <a href="">
+                                <button type="button" class="login-button"><span>Login</span>
+                                </button></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="header-ham">
+                    <ul class="ham-ul">
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Register</a></li>
                         <li>
@@ -40,8 +57,37 @@
                 </div>
             </div>
         </header>
+        <section class="section2">
+            <p>lhfhf hfhf hfhf hfhf</p>
+            <section class="section3">
 
+                <h1 class="h11">hqqqqqqqq Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laboriosam et numquam quia vero perspiciatis, nisi expedita sunt, suscipit ipsum saepe necessitatibus neque ipsam excepturi libero dignissimos ut nesciunt. Aperiam?
+                </h1>
+            </section>
+        </section>
     </section>
+
+
+
+
+    <hr class="hr1 ">
+    <script>
+        var a;
+
+        function myFunction() {
+            if (a == 1) {
+                document.getElementById("header-ham").style.display = "none";
+
+
+                return a = 0;
+            } else {
+                document.getElementById("header-ham").style.display = "block";
+
+
+                return a = 1;
+            }
+        }
+    </script>
 </body>
 
 </html>
