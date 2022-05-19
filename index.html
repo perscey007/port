@@ -8,73 +8,75 @@
     <title> Percy's portfolio</title>
     <link rel="icon" href="/icons8-portfolio-96.png">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Macondo&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section class="section1">
-        <header>
-            <div style="background-color: rgba(255, 228, 196, 0);" class="header-div">
-                <div class="header-left">
-                    <div class="header-left-icon">
-                        <img src="icons8-portfolio-96.png" alt="" style="width: 60px;">
-                        <p>Portfolio</p>
+        <section class="section2">
+            <header>
+                <div style="background-color: rgba(255, 228, 196, 0);" class="header-div">
+                    <div class="header-left">
+                        <div class="header-left-icon">
+                            <img src="icons8-portfolio-96.png" alt="" style="width: 60px;">
+                            <p class="home-icon">Port<span style="color: rgba(255, 97, 6, 0.909);">folio</span></p>
+                        </div>
+                    </div>
+
+                    <div class="header-right">
+                        <button type="button" onclick="myFunction()" class="header-ham">
+                            <span class="header-ham">
+                                <img src="/icon-hamburger.svg" alt="">
+                            </span>
+                        </button>
+
+                        <ul class="header-ul">
+                            <li>
+                                <a class="ham-link" href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Register</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <button type="button" class="login-button"><span>Login</span>
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="header-ham">
+                        <ul class="ham-ul">
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Register</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <button type="button" class="login-button"><span>Login</span>
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </header>
 
-                <div class="header-right">
-                    <button type="button" onclick="myFunction()" class="header-ham">
-                        <span class="header-ham">
-                            <img src="/icon-hamburger.svg" alt="">
-                        </span>
-                    </button>
-
-                    <ul class="header-ul">
-                        <li>
-                            <a class="ham-link" href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">Register</a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <button type="button" class="login-button"><span>Login</span>
-                                </button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="header-ham">
-                    <ul class="ham-ul">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">Register</a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <button type="button" class="login-button"><span>Login</span>
-                                </button>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-
-        <section class="section2">
-            <p>lhfhf hfhf hfhf hfhf</p>
             <section class="section3">
 
-                <h1 class="h11">hque ipsam excepturi libero dignissimos ut nesciunt. Aperiam?
-                </h1>
+                <div class="h11">
+                    <p>Hello, my name is</p>
+                    <h1>Ayomiposi <span style="color: rgba(255, 97, 6, 0.909);">ADEDAYO</span></h1>
+                    <p>I'm a Web Developer</p>
+                    <form action="">
+                        <input type="email" placeholder=" ">
+                        <button>contact</button>
+                    </form>
+                </div>
             </section>
         </section>
     </section>
@@ -82,7 +84,6 @@
 
 
 
-    <hr class="hr1 ">
     <script>
         var a;
 
