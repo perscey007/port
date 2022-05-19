@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.section1 {
+    background-color: rgba(15, 15, 15, 0.944);
+    height: 700px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header-left {}
+
+.header-left-icon {
+    display: flex;
+}
+
+.header-right {}
+
+.header-ul {
+    display: flex;
+    list-style: none;
+}
+
+ul.header-ul>li>a {
+    color: rgb(38, 16, 16);
+    text-decoration: none;
+    margin: .5rem;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 2%;
+}
+
+.header-left {}
