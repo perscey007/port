@@ -299,7 +299,6 @@
             background-size: cover;
             background-position: 10rem 0rem;
             background-position: 12rem 0rem;
-            border: 2px solid red;
         }
         .h11 {
             transform: translateY(40rem);
@@ -325,7 +324,6 @@
             background-size: contain;
             background-position: right;
             background-position: 25rem 0rem;
-            border: 0px solid red;
         }
         .h11 {
             transform: translateY(38rem);
@@ -359,7 +357,6 @@
             background-size: contain;
             background-position: right;
             background-position: 35rem 0rem;
-            border: 0px solid red;
         }
         .h11 {
             transform: translateY(35rem);
@@ -395,7 +392,6 @@
             background-size: contain;
             background-position: 35rem 0rem;
             background-position: right;
-            border: 3px solid red;
         }
         .h11 {
             transform: translateY(35rem);
@@ -513,11 +509,6 @@
         transition: all .2s ease-in;
     }
     
-    .section4 {
-        height: 500px;
-        background-color: antiquewhite;
-    }
-    
     @media screen and (min-width:1440px) {
         form {
             display: flex;
@@ -539,4 +530,8 @@
             border-radius: 30px;
             color: white;
         }
+    }
+    
+    .section4 {
+        height: 500px;
     }
