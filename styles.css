@@ -150,8 +150,8 @@
         height: auto;
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-left: auto;
-        padding-right: auto;
+        padding-left: 5%;
+        padding-right: 5%;
         z-index: 3;
         list-style: none !important;
         box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -215,7 +215,7 @@
         top: 0%;
     }
     
-    @media screen and (min-width:780px) {
+    @media screen and (min-width:900px) {
         .section3 {
             height: 100vh;
         }
@@ -533,5 +533,15 @@
     }
     
     .section4 {
-        height: 500px;
+        height: 700px;
+        background-image: url(/img/business-3d-old-businessman-in-glasses-standing-with-coffee-mug-in-hand-and-holding-tablet.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    @media screen and (min-width:900px) {
+        .section4 {
+            height: 100vh;
+        }
     }
