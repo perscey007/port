@@ -337,7 +337,7 @@ h1 {
     .h11 {
         transform: translateY(36rem);
         height: 11rem;
-        width: 26rem;
+        width: 24rem;
     }
     .h12 {
         transform: translateY(36rem);
@@ -368,23 +368,23 @@ h1 {
         background-position: 35rem 0rem;
     }
     .h11 {
-        transform: translateY(31rem);
+        transform: translateY(33rem);
         margin-left: 5%;
-        height: 12rem;
-        width: 34rem;
+        height: 10rem;
+        width: 28rem;
         padding: 5% 5%;
     }
     .h12 {
-        transform: translateY(34rem);
+        transform: translateY(36rem);
         background-color: rgba(250, 235, 215, 0);
         padding: 0% 4%;
         margin: 0% 5%;
     }
     .h1-text {
-        font-size: 2.0rem;
+        font-size: 1.5rem;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     ul.header-ul>li>a {
         color: rgba(58, 56, 56, 0.785);
@@ -405,14 +405,14 @@ h1 {
     .h11 {
         transform: translateY(33rem);
         margin-left: 5%;
-        height: 12rem;
-        width: 34rem;
+        height: 11rem;
+        width: 31rem;
         padding: 4rem 4rem;
         padding-bottom: 5rem;
         margin-left: 15%;
     }
     .h12 {
-        transform: translateY(35rem);
+        transform: translateY(36rem);
         background-color: rgba(250, 235, 215, 0);
         padding: 0% 5%;
         padding-left: 4%;
@@ -420,10 +420,10 @@ h1 {
         margin-left: 15%;
     }
     .h1-text {
-        font-size: 2.0rem;
+        font-size: 1.7rem;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     ul.header-ul>li>a {
         color: rgba(58, 56, 56, 0.785);
