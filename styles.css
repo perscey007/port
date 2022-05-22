@@ -783,3 +783,9 @@ select {
     text-align: center;
     text-align: left;
 }
+
+.Exp-wrapper {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
