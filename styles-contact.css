@@ -741,7 +741,7 @@ form>button:hover {
     }
 }
 
-.form-contact {
+.form-contact1 {
     background-color: rgba(190, 190, 190, 0.312);
     background-color: rgba(133, 131, 131, 0.333);
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -753,18 +753,20 @@ form>button:hover {
     text-align: center;
 }
 
-.form-contact-header {
+.form-contact-header1 {
     color: rgba(255, 97, 6, 0.909);
     color: white;
     font-size: 1.5rem;
     margin-top: 2%;
 }
 
-.input-contact {
+.input-contact1 {
     padding: 3% 2%;
     margin: 3% 0%;
 }
 
+
+/* 
 @media screen and (min-width:320px) and (max-width:700px) {
     .form-contact {
         padding: 5%;
@@ -780,22 +782,31 @@ form>button:hover {
         padding: 3% 2%;
         margin: 3% 0%;
     }
-}
+} */
 
 @media screen and (min-width:700px) and (max-width:1280px) {
-    .form-contact {
+    .contact-section {
+        background-image: url(/img/contact-img-2.png);
+        background-size: 420px;
+        background-repeat: no-repeat;
+        background-position: -20% 50%;
+        background-position: left;
+    }
+    .form-contact1 {
         border-radius: 20px;
         margin: 10% 20%;
+        margin-left: 40%;
+        margin-right: 10%;
         padding: 5%;
         text-align: center;
         /* transform: translateX(2%) translateY(10%); */
     }
-    .form-contact-header {
+    .form-contact-header1 {
         color: rgba(255, 97, 6, 0.909);
         color: white;
         font-size: 1.5rem;
     }
-    .input-contact {
+    .input-contact1 {
         padding: 3% 2%;
         margin: 3% 0%;
     }
