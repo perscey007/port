@@ -715,8 +715,8 @@ form>button:hover {
 
 @media screen and (min-width:320px) and (max-width:700px) {
     .a12 {
-        background-color: rgba(193, 193, 193, 0.486);
-        background-color: rgba(190, 190, 190, 0.312);
+        background-color: #c1c1c17c;
+        background-color: #bebebe50;
         box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
         -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
         -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -854,21 +854,59 @@ select {
 }
 
 .exp-wrapper {
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
     margin-top: 5%;
 }
 
-.exp-header {
-    color: rgba(255, 97, 6, 0.84);
-    font-size: 1.1rem;
+.exp-main-header {
+    color: #ff6106d6;
+    font-size: 1.2rem;
     margin-top: 0%;
-}
-
-.exp-text {
-    font-size: .9rem;
 }
 
 .section6 {
     background: linear-gradient(266deg, rgba(107, 107, 107, 0) 0%, rgba(160, 160, 160, 0.22) 80%);
+    margin-top: 0%;
+}
+
+.exp-div {
+    background-color: red;
+    background-color: #bebebe50;
+    background-color: #c1c1c17c;
+    padding: 2% 3%;
+    border: 0px solid white;
+    margin: 5% 12%;
+    border-radius: 25px;
+    box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+}
+
+.exp-img {
+    max-width: 10%;
+}
+
+.exp-hr {
+    border: 1px solid #00000069;
+    border: 1px solid #ff7424d6;
+    width: 80%;
+}
+
+.exp-header {
+    color: #ff7424d6;
+    font-size: .9rem;
+    margin: 4% 2%;
+}
+
+.exp-text {
+    color: #000000ba;
+    color: white;
+    font-size: .8rem;
+}
+
+.exp-sub {
+    color: #0000009a;
+    color: rgba(255, 255, 255, 0.701);
+    font-size: .6rem;
 }
