@@ -346,12 +346,16 @@ h1 {
         background-position: 12rem 0rem;
     }
     .h11 {
-        transform: translateY(36rem);
+        /* transform: translateY(36rem); */
+        margin-top: .5%;
+        margin-left: 1%;
         height: 12rem;
         width: 25rem;
     }
     .h12 {
-        transform: translateY(36rem);
+        /* transform: translateY(36rem); */
+        margin-top: 0%;
+        margin-left: 0%;
         background-color: rgba(250, 235, 215, 0);
     }
     .h1-text {
@@ -381,12 +385,12 @@ h1 {
         background-position: 25rem 0rem;
     }
     .h11 {
-        transform: translateY(36rem);
+        /* transform: translateY(36rem); */
         height: 11rem;
         width: 24rem;
     }
     .h12 {
-        transform: translateY(36rem);
+        /* transform: translateY(36rem); */
         background-color: rgba(250, 235, 215, 0);
         padding: 4% 5%;
         margin: 0% 4%;
@@ -424,14 +428,14 @@ h1 {
         background-position: 35rem 0rem;
     }
     .h11 {
-        transform: translateY(33rem);
+        /* transform: translateY(33rem); */
         margin-left: 5%;
         height: 10rem;
         width: 28rem;
         padding: 5% 5%;
     }
     .h12 {
-        transform: translateY(36rem);
+        transform: translateY(30rem);
         background-color: rgba(250, 235, 215, 0);
         padding: 0% 4%;
         margin: 0% 5%;
@@ -469,7 +473,7 @@ h1 {
         background-position: right;
     }
     .h11 {
-        transform: translateY(33rem);
+        transform: translateY(23rem);
         margin-left: 5%;
         height: 11rem;
         width: 31rem;
@@ -478,7 +482,7 @@ h1 {
         margin-left: 15%;
     }
     .h12 {
-        transform: translateY(36rem);
+        transform: translateY(26rem);
         background-color: rgba(250, 235, 215, 0);
         padding: 0% 5%;
         padding-left: 4%;
