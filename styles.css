@@ -784,8 +784,17 @@ select {
     text-align: left;
 }
 
-.Exp-wrapper {
-    max-width: 80%;
+.exp-wrapper {
+    max-width: 90%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+.exp-header {
+    color: rgba(255, 97, 6, 0.84);
+    font-size: 1.1rem;
+}
+
+.exp-text {
+    font-size: .9rem;
 }
