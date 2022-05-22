@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Percy's portfolio</title>
     <link rel="icon" href="/icons8-portfolio-96.png" />
-    <link rel="stylesheet" href="/styles-login.css" />
+    <link rel="stylesheet" href="styles-login.css" />
     <!--     
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Macondo&display=swap" rel="stylesheet"> -->
@@ -83,35 +83,36 @@
     </section>
 
     <section>
+        <section class="contact-section">
+            <p>&nbsp;</p>
+            <form class="form-contact1" style="margin-top: 15%;">
+                <h3 class="form-contact-header1" style="margin-top: 2%;">Login</h3>
+                <hr class="hr2">
+                <input class="input-contact1" type="text" placeholder="Userame" />
+                <input class="input-contact1" type="password" placeholder="Password" />
+                <hr class="hr2">
+                <button class="m-button" style="margin-top: 4%;">Sign in</button>
+            </form>
 
-        <form class="form-contact" style="margin-top: 15%;">
-            <h3 class="form-contact-header" style="margin-top: 2%;">Login</h3>
-            <hr class="hr2">
-            <input class="input-contact" type="text" placeholder="Userame" />
-            <input class="input-contact" type="password" placeholder="Password" />
-            <hr class="hr2">
-            <button class="m-button" style="margin-top: 4%;">Sign in</button>
-        </form>
-
-        <p>&nbsp;</p>
-    </section>
+            <p>&nbsp;</p>
+        </section>
 
 
-    <script>
-        var a;
+        <script>
+            var a;
 
-        function myFunction() {
-            if (a == 1) {
-                document.getElementById("M-nav-ham").style.display = "none ";
+            function myFunction() {
+                if (a == 1) {
+                    document.getElementById("M-nav-ham").style.display = "none ";
 
-                return (a = 0);
-            } else {
-                document.getElementById("M-nav-ham").style.display = "block ";
+                    return (a = 0);
+                } else {
+                    document.getElementById("M-nav-ham").style.display = "block ";
 
-                return (a = 1);
+                    return (a = 1);
+                }
             }
-        }
-    </script>
+        </script>
 </body>
 
 </html>
