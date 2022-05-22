@@ -28,6 +28,13 @@ html {
     text-shadow: #211e1e 1px;
 }
 
+@media screen and (max-width:800px) {
+    .home-logo-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+}
+
 .section1 {
     width: 100%;
     padding: 0%;
