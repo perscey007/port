@@ -44,6 +44,13 @@ font-family: 'Ubuntu', sans-serif; */
     /* max-width: 1800px; */
 }
 
+
+.content {
+  padding: 0px;
+  margin-top: -15%;
+}
+
+
 .sticky {
     position: fixed;
     top: 0;
