@@ -44,12 +44,10 @@ font-family: 'Ubuntu', sans-serif; */
     /* max-width: 1800px; */
 }
 
-
 .content {
-  padding: 0px;
-  margin-top: -15%;
+    padding: 0px;
+    margin-top: -8%;
 }
-
 
 .sticky {
     position: fixed;
@@ -432,6 +430,51 @@ section 2 (picture) background, and header 1 main */
     .h12 {
         /* transform: translateY(36rem); */
         -webkit-transform: translateY(36rem);
+        -moz-transform: translateY(42rem);
+        background-color: rgba(250, 235, 215, 0);
+        padding: 4% 5%;
+        margin: 0% 4%;
+    }
+    .h1-text {
+        font-size: 1.3rem;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
+    ul.header-ul>li>a {
+        color: rgba(58, 56, 56, 0.785);
+        color: white;
+        text-decoration: none;
+        margin: 1.5rem;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-height:900px) {
+    .svg-down {
+        position: absolute;
+        top: 0%;
+        min-height: 100vh;
+        width: 100%;
+        padding-bottom: 0%;
+        background-image: url(/wave\ \(8\).svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .section2 {
+        height: 100vh;
+        background-size: cover;
+        background-size: contain;
+        background-position: right;
+        background-position: 25rem 0rem;
+    }
+    .h11 {
+        -webkit-transform: translateY(19rem);
+        -moz-transform: translateY(42rem);
+        height: 11rem;
+        width: 24rem;
+    }
+    .h12 {
+        -webkit-transform: translateY(19rem) translateX(-2rem);
         -moz-transform: translateY(42rem);
         background-color: rgba(250, 235, 215, 0);
         padding: 4% 5%;
