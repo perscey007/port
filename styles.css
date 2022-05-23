@@ -1118,9 +1118,25 @@ select {
     text-align: center;
 }
 
+@media screen and (min-width: 725px) {
+    .exp-s7-wrapper {
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .exp-s7-wrapper {
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .exp-s7-wrapper {
-        max-width: 70%;
+        max-width: 80%;
         margin: auto;
         text-align: center;
     }
@@ -1128,7 +1144,7 @@ select {
 
 @media screen and (min-width: 1700px) {
     .exp-s7-wrapper {
-        max-width: 60%;
+        max-width: 65%;
         margin: auto;
         text-align: center;
     }
@@ -1140,12 +1156,12 @@ select {
     justify-content: center;
     background-color: #b0a8a869;
     padding: 8% 5%;
-    gap: 8%;
+    gap: 7%;
     margin: auto;
     margin-left: 0%;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
     background-color: #c1c1c17c;
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1154,8 +1170,8 @@ select {
 }
 
 .s7-box1 {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     background-image: url(/img/desktop-preview\ \(2\).jpg);
     background-position: left;
     background-size: cover;
@@ -1165,8 +1181,8 @@ select {
 }
 
 .s7-box1:hover {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1179,8 +1195,8 @@ select {
 }
 
 .s7-box2 {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     background-image: url(/img/desktop-preview.jpg);
     background-position: left;
     background-size: cover;
@@ -1190,8 +1206,8 @@ select {
 }
 
 .s7-box2:hover {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1204,8 +1220,8 @@ select {
 }
 
 .s7-box3 {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     background-image: url(/img/desktop-preview\ \(1\).jpg);
     background-position: left;
     background-size: cover;
@@ -1215,8 +1231,8 @@ select {
 }
 
 .s7-box3:hover {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1229,8 +1245,8 @@ select {
 }
 
 .s7-box4 {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     background-image: url(/img/classic\ rides.jpeg);
     background-position: top;
     background-size: 400px;
@@ -1240,8 +1256,8 @@ select {
 }
 
 .s7-box4:hover {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1254,8 +1270,8 @@ select {
 }
 
 .s7-box5 {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     background-image: url(/img/Web\ capture_23-5-2022_12744_net-ninja-book.vercel.app\ \(1\).jpeg);
     background-position: top;
     background-size: cover;
@@ -1264,8 +1280,8 @@ select {
 }
 
 .s7-box5:hover {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1278,8 +1294,8 @@ select {
 }
 
 .s7-box6 {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     background-image: url(/img/calc\ Web\ capture_23-5-2022_9553_127.0.0.1.jpeg);
     background-position: center;
     background-size: cover;
@@ -1288,8 +1304,8 @@ select {
 }
 
 .s7-box6:hover {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     box-shadow: -2px 2px 7px -1px rgba(8, 8, 8, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
