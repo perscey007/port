@@ -44,6 +44,23 @@ font-family: 'Ubuntu', sans-serif; */
     /* max-width: 1800px; */
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: rgba(111, 102, 102, 0.333);
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.sticky+.content {
+    padding-top: 50px;
+}
+
 .header-left {
     z-index: 3;
 }
