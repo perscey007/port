@@ -15,21 +15,85 @@
     <style>
         h1 {
             text-align: center;
+            font-size: .9rem;
+            margin-bottom: 15%;
         }
         
         .container {
             margin: auto;
-            width: 60%;
-            padding: 10px;
-            border: 1px solid #f2f2f2;
-            -webkit-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
-            -moz-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
-            box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
-            background-color: #F8F8F8;
+            width: 70%;
+            padding: 20px;
+            margin-bottom: 20%;
+            border: 0px solid #f2f2f2;
+            background-color: #c1c1c17c;
+            background-color: #bcb9b9bf;
+            box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+            -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+            -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+        }
+        
+        @media screen and (min-width: 550px) {
+            h1 {
+                text-align: center;
+                font-size: 1.3rem;
+                margin-bottom: 8%;
+            }
+            .container {
+                margin: auto;
+                width: 50%;
+                padding: 20px;
+                margin-bottom: 20%;
+                border: 0px solid #f2f2f2;
+                background-color: #c1c1c17c;
+                background-color: #bcb9b9bf;
+                box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+                -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+                -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+            }
+        }
+        
+        @media screen and (min-width: 1024px) {
+            h1 {
+                text-align: center;
+                font-size: 1.5rem;
+                margin-bottom: 7%;
+            }
+            .container {
+                margin: auto;
+                width: 40%;
+                padding: 20px;
+                margin-bottom: 20%;
+                border: 0px solid #f2f2f2;
+                background-color: #c1c1c17c;
+                background-color: #bcb9b9bf;
+                box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+                -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+                -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+            }
+        }
+        
+        @media screen and (min-width: 1440px) {
+            h1 {
+                text-align: center;
+                font-size: 1.6rem;
+                margin-bottom: 5%;
+            }
+            .container {
+                margin: auto;
+                width: 35%;
+                padding: 20px;
+                margin-bottom: 20%;
+                border: 0px solid #f2f2f2;
+                background-color: #c1c1c17c;
+                background-color: #bcb9b9bf;
+                box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+                -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+                -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
+            }
         }
         
         .header {
-            background-color: #81C784;
+            background-color: #ff6106e8;
             padding: 10px;
             color: #fff;
             text-align: center;
@@ -45,11 +109,12 @@
         
         .result {
             font-size: 24px;
-            padding: 16px 5px;
+            padding: 16px 0px;
             font-weight: 700;
             text-align: right;
-            width: 96%;
+            width: 100%;
             border: none;
+            border-radius: 0px;
             background-color: #F8F8F8;
         }
         
@@ -58,8 +123,10 @@
             font-weight: bold;
             font-size: 16px;
             border: none;
-            border-radius: 3px;
+            border: 1px solid rgba(255, 255, 255, 0);
+            border-radius: 0px;
             background-color: #F2F2F2;
+            /* background-color: #c8c8c869; */
             width: 100%;
         }
         /*the global class padding reset for first-row class button*/
@@ -73,7 +140,7 @@
         }
         
         .green {
-            background-color: #81C784;
+            background-color: #ff6106e8;
         }
         
         .red {
