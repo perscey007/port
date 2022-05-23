@@ -171,7 +171,7 @@ ul.header-ul>li>a:hover {
 #M-nav-ham {
     position: absolute;
     text-align: center;
-    top: 8%;
+    top: 12%;
     right: 5%;
     background-color: rgba(97, 96, 96, 0.576);
     border: 0px solid white;
