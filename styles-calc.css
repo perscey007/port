@@ -507,8 +507,8 @@ form>button:hover {
 .m-button {
     border: 0px solid;
     background: rgba(255, 97, 6, 0.909);
-    height: 2rem;
-    width: 5rem;
+    height: 2.5rem;
+    width: 6rem;
     border-radius: 30px;
     color: white;
     cursor: pointer;
