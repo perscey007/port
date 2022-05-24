@@ -8,9 +8,14 @@
     <title>Percy's portfolio</title>
     <link rel="icon" href="/icons8-portfolio-96.png" />
     <link rel="stylesheet" href="/styles-contact.css" />
-    <!--     
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Macondo&display=swap" rel="stylesheet"> -->
+    <style>
+        .copywrite {
+            padding: 0%;
+            padding-bottom: 2%;
+            text-align: center;
+            font-size: 1em;
+        }
+    </style>
 </head>
 
 <body>
@@ -86,65 +91,72 @@
         <p>&nbsp;</p>
         <form class="form-contact1">
             <h3 class="form-contact-header1">Contact</h3>
-            <hr class="hr2">
+            <hr class="hr2" />
             <input class="input-contact1" type="text" placeholder="Name" />
             <input class="input-contact1" type="email" placeholder="Email" />
-            <input style="margin-bottom: 5%;" class="input-contact1" type="text" placeholder="Type your message" />
+            <input style="margin-bottom: 5%" class="input-contact1" type="text" placeholder="Type your message" />
 
+            <span class="span-reg">
+          <label
+            for="gender"
+            style="margin-top: 3%; font-weight: 500; font-size: 1.2em"
+            class="label-reg"
+            >Priority</label
+          >
+          <select name="gender">
+            <option value="Critical" selected style="color: red">
+              Critical
+            </option>
+            <option value="High" style="color: rgb(210, 175, 0)">High</option>
+            <option value="Medium" style="color: rgb(7, 77, 243)">
+              Medium
+            </option>
+            <option value="Low" style="color: green">Low</option>
+          </select>
+        </span>
 
-            <span class="span-reg"> 
-                <label for="gender" style="margin-top: 3%; font-weight: 500; font-size: 1.2em;" class="label-reg">Priority</label>
-                <select name="gender">
-                <option value="Critical" selected style="color: red;">Critical</option>
-                <option value="High" style="color: rgb(210, 175, 0);">High</option>
-                <option value="Medium" style="color: rgb(7, 77, 243);">Medium</option>
-                <option value="Low" style="color: green;">Low</option>
-                </select>
-            </span>
-
-
-            <hr class="hr2" style="margin-top: 5%;">
-            <button class="m-button" style="margin-top: 4%;">submit</button>
-
+            <hr class="hr2" style="margin-top: 5%" />
+            <button class="m-button" style="margin-top: 4%">submit</button>
         </form>
 
         <p>&nbsp;</p>
     </section>
-
 
     <footer>
         <h5>Let's Connect</h5>
         <div class="footer-div">
             <div class="footer-ink-wrap">
                 <a href="mailto:perscey007@gmail.com" target="_blank">
-                    <img src="/img/gmail-color.png" alt="gmail-icon" class="footer-links">
+                    <img src="/img/gmail-color.png" alt="gmail-icon" class="footer-links" />
                 </a>
             </div>
             <div class="footer-ink-wrap">
                 <a href="https://github.com/perscey007" target="_blank">
-                    <img src="/img/github-color.png" alt="github-icon" class="footer-links">
+                    <img src="/img/github-color.png" alt="github-icon" class="footer-links" />
                 </a>
             </div>
             <div class="footer-ink-wrap">
                 <a href="https://twitter.com/Percyadedayo" target="_blank">
-                    <img src="/img/twitter-color.png" alt="twitter-icon" class="footer-links">
+                    <img src="/img/twitter-color.png" alt="twitter-icon" class="footer-links" />
                 </a>
             </div>
             <div class="footer-ink-wrap">
                 <a href="https://app.netlify.com/teams/perscey007/overview" target="_blank">
-                    <img src="/img/netlify-color.png" alt="netlify-icon" class="footer-links">
+                    <img src="/img/netlify-color.png" alt="netlify-icon" class="footer-links" />
                 </a>
             </div>
             <div class="footer-ink-wrap">
                 <a href="https://www.linkedin.com/in/ayomiposi-adedayo-6b1b35189/" target="_blank">
-                    <img src="/img/linkedin-color.png" alt="linkedin-icon" class="footer-links">
+                    <img src="/img/linkedin-color.png" alt="linkedin-icon" class="footer-links" />
                 </a>
             </div>
         </div>
-        <p style="padding: 0%; margin: 0%;">&nbsp;</p>
+
+        <p class="copywrite">
+            Copyright &copy; 2022 Ayomiposi ADEDAYO
+            <span style="font-size: 1.5em; font-weight: 200">&#124;</span> All rights reserved
+        </p>
     </footer>
-
-
 
     <script>
         var a;
