@@ -942,7 +942,7 @@ section 2 (picture) background, and header 1 main */
         .reveal {
             position: relative;
             transform: translateX(40%);
-            transform: translateY(80px);
+            transform: translateY(60px);
             opacity: 0;
             transition: .3s all ease-in;
         }
