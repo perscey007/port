@@ -216,7 +216,8 @@ font-family: 'Ubuntu', sans-serif; */
         -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     
         animation-name: slidee-in;
-        animation-duration: .4s;
+        animation-duration: .45s;
+        animation-iteration-count: infinite;
     }
     
     @keyframes slidee-in {
