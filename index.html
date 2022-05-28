@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="header-right">
-                <a href="#" onclick="myFunction(); startanimation( document.getElementById('animatedText') )" class="header-ham">
+                <a href="#" onclick="myFunction(); reset_animation()" class="header-ham">
                     <span class="header-ham">
           <img src="/icon-hamburger.svg" alt="icon-hamburger" />
         </span>
@@ -308,18 +308,12 @@
 
 // 
 
-  function startanimation(element) {
-
-    element.classList.add("slide-in");
-
-    element.addEventListener( "animationend",  function() {
-
-      element.classList.remove("slide-in");  	
-
-    } );
-
-  }
-
+ function reset_animation() {
+  var el = document.getElementById('M-nav-ham');
+  el.style.animation = 'none';
+  el.offsetHeight; /* trigger reflow */
+  el.style.animation = null; 
+}
 
 
         // header-blur on scroll
