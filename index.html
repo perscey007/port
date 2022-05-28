@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="header-right">
-                <a href="#" onclick="myFunction();" class="header-ham">
+                <a href="#" onclick="myFunction(); startanimation( document.getElementById('animatedText') )" class="header-ham">
                     <span class="header-ham">
           <img src="/icon-hamburger.svg" alt="icon-hamburger" />
         </span>
@@ -306,15 +306,19 @@
             }
         }
 
-// This changes everything
-$(function() {
-  $("#M-nav-ham").click(function() {
-    var el = $(this);
+// 
 
-    el.before(el.clone(true)).remove();
-  });
-});
+  function startanimation(element) {
 
+    element.classList.add("slide-in");
+
+    element.addEventListener( "animationend",  function() {
+
+      element.classList.remove("slide-in");  	
+
+    } );
+
+  }
 
 
 
