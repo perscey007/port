@@ -942,9 +942,9 @@ section 2 (picture) background, and header 1 main */
         .reveal {
             position: relative;
             transform: translateX(40%);
-            transform: translateY(40px);
+            transform: translateY(60px);
             opacity: 0;
-            transition: .25s all ease-in;
+            transition: .3s all ease-in;
         }
         
         .reveal.active {
