@@ -23,10 +23,9 @@ body {
 background-image: url(/img/bg1.jpeg);
                             
                                 background-position: 20% 0%;
-                              /*  background-size: cover;  */
+                               background-size: cover; 
                                 background-repeat: no-repeat;
 
-background-attachment: fixed;
 
 
                             }
