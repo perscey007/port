@@ -11,16 +11,20 @@
 f ont-family: 'Lobster', cursive;
 font-family: 'Macondo', cursive;
 font-family: 'Ubuntu', sans-serif; */
-                                background-image: url(/img/bg1.jpeg);
-                                background-position: top;
-                                background-position: center;
-                                background-position: 20% 0%;
-                              /*  background-size: cover;  */
-                                background-repeat: no-repeat;
+                               
                                 height: fit-content;
                                 margin-bottom: -10%;
                                 background-color: #d7efffe8;
                                 background-color: #adadad91; 
+}
+
+body {
+
+background-image: url(/img/bg1.jpeg);
+                            
+                                background-position: 20% 0%;
+                              /*  background-size: cover;  */
+                                background-repeat: no-repeat;
 
 background-attachment: fixed;
 
