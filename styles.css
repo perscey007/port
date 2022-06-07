@@ -15,7 +15,7 @@ font-family: 'Ubuntu', sans-serif; */
                                 background-position: top;
                                 background-position: center;
                                 background-position: 20% 0%;
-                                background-size: cover;
+                              /*  background-size: cover;  */
                                 background-repeat: no-repeat;
                                 height: fit-content;
                                 margin-bottom: -10%;
@@ -24,9 +24,6 @@ font-family: 'Ubuntu', sans-serif; */
 
 background-attachment: fixed;
 
-background-position: center;
-
-background-size: 100vw 100vh;
 
                             }
                             
