@@ -15,12 +15,13 @@ font-family: 'Ubuntu', sans-serif; */
                                 height: fit-content;
                                 margin-bottom: -10%;
                                 background-color: #d7efffe8;
-                                background-color: #adadad91; 
+                                background-color: #adadad91;   background-color: white; 
+
 }
 
 body {
 
-background-image: url(/img/bg1.jpeg);
+background-image: url(/img/bg1..jpeg);
                             
                                 background-position: 20% 0%;
                                background-size: cover; 
