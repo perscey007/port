@@ -20,7 +20,11 @@ font-family: 'Ubuntu', sans-serif; */
                                 height: fit-content;
                                 margin-bottom: -10%;
                                 background-color: #d7efffe8;
-                                background-color: #adadad91; background-attachment: scroll;
+                                background-color: #adadad91; 
+
+background-attachment: fixed;
+
+background-size: 100vw 100vh;
 
                             }
                             
