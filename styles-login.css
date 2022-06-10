@@ -7,20 +7,26 @@ html {
     scroll-padding-top: 3.5rem;
     font-family: "Montserrat", sans-serif;
     color: white;
+    width: 100%;
+    min-height: 100vh;
     /* font-family: 'Macondo', cursive; 
     f ont-family: 'Lobster', cursive;
     font-family: 'Macondo', cursive;
     font-family: 'Ubuntu', sans-serif; */
-    background-image: url(/img/bg1.jpeg);
+    /* background-image: url(/img/bg1.jpeg);
     background-position: top;
     background-position: center;
     background-position: 20% 0%;
     background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-color: #d7efffe8;
-    background-color: #adadad91;
+    background-repeat: no-repeat; */
     margin-bottom: -10%;
+    background: rgba(246, 127, 59, 0.83);
+    background: radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+    background: -webkit-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+    background: -moz-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .home-logo-text {
@@ -186,16 +192,6 @@ ul.ham-ul>li>a {
     text-decoration: none;
     line-height: 2.5rem;
     font-size: large;
-}
-
-.section2 {
-    background-image: url(/img/bg-pic1\\(1\).png);
-    background-position: center;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    position: relative;
 }
 
 @media screen and (min-width: 500px) and (max-width: 649px) {
