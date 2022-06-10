@@ -23,6 +23,13 @@ html {
     background-color: #d7efffe8;
     background-color: #adadad91; */
     margin-bottom: -10%;
+    background-color: #b5cadf;
+    background-color: #b3b0b3;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
     background: rgba(246, 127, 59, 0.83);
     background: radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
     background: -webkit-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
