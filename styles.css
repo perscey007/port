@@ -37,8 +37,8 @@ font-family: 'Ubuntu', sans-serif; */
                             background: -moz-radial-gradient(circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
                             background-repeat: no-repeat;
                             background-position: center;
-background-size: 100vw 120vh;
-                            height: 100vh;
+
+                            height: 120vh;
                             width: 100vw;
                             position: fixed;
                             z-index: -1;
