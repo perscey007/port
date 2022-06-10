@@ -14,7 +14,7 @@ font-family: 'Ubuntu', sans-serif; */
                                 width: 100%;
                                 height: fit-content;
                                 margin-bottom: -10%;
-                                background: rgba(246, 127, 59, 0.83);
+                                background-color: rgba(246, 127, 59, 0.83);
                                 background: radial-gradient(circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
                                 background: -webkit-radial-gradient(circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
                                 background: -moz-radial-gradient(circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
