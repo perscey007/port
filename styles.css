@@ -1587,13 +1587,15 @@ select {
   background-repeat: no-repeat;
   border: 2px solid rgba(255, 255, 255, 0);
   margin: 5% 0%;
+  position: relative;
 }
 
 .s7-box1:hover, .s7-box2:hover, .s7-box3:hover, .s7-box4:hover, .s7-box5:hover, .s7-box6:hover {
+  background-size: 360px;
   border: 2px solid #f59d6a;
-  box-shadow: -2px 2px 7px -1px #ffaa79;
-  -webkit-box-shadow: -2px 2px 7px -1px #ffaa79;
-  -moz-box-shadow: -2px 2px 7px -1px #ffaa79;
+  box-shadow: -2px 4px 7px -1px #ffaa79;
+  -webkit-box-shadow: -2px 4px 7px -1px #ffaa79;
+  -moz-box-shadow: -2px 4px 7px -1px #ffaa79;
   transition: all 0.5s ease-in;
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
@@ -1615,7 +1617,11 @@ select {
   background-image: url(/img/classic-rides.jpeg);
   margin: 5% 0;
   background-position: top;
-  background-size: cover;
+  background-size: 250px;
+}
+
+.s7-box4:hover {
+  background-size: 270px;
 }
 
 .s7-box5 {
@@ -1642,9 +1648,11 @@ select {
   background-repeat: no-repeat;
   margin: 5% 0%;
   border: 2px solid rgba(255, 255, 255, 0);
+  position: relative;
 }
 
 .s7-box1e:hover, .s7-box2e:hover, .s7-box3e:hover, .s7-box4e:hover, .s7-box5e:hover, .s7-box6e:hover {
+  background-size: 270px;
   border: 2px solid #f59d6a;
   box-shadow: -2px 2px 7px -1px #ffaa79;
   -webkit-box-shadow: -2px 2px 7px -1px #ffaa79;
@@ -1679,6 +1687,40 @@ select {
 .s7-img {
   max-width: 150px;
   max-height: 150px;
+}
+
+.span-exp {
+  padding: 4% 0%;
+  margin-top: auto;
+  position: absolute;
+  top: 87%;
+  left: -5%;
+  left: 10%;
+  width: 100%;
+  width: 80%;
+  background-color: #ffffff;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: -2px 4px 7px -1px #313131;
+  -webkit-box-shadow: -2px 4px 7px -1px #313131;
+  -moz-box-shadow: -2px 4px 7px -1px #313131;
+}
+
+.span1-exp, .span2-exp {
+  border: 0px solid red;
+  width: 50%;
+  text-align: center;
+  color: #383838;
+  text-decoration: none;
+}
+
+.span1-exp:hover, .span2-exp:hover {
+  color: #ff6207;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 footer {
