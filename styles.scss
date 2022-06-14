@@ -17,17 +17,19 @@ font-family: 'Ubuntu', sans-serif; */
     background-color: #b3b0b3;
 }
 
-body {
-    margin: 0%;
-    padding: 0%;
-    background: rgba(246, 127, 59, 0.83);
-    background: radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
-    background: -webkit-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
-    background: -moz-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: #b5cadf;
+@media screen and (min-width: 800px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        background: rgba(246, 127, 59, 0.83);
+        background: radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+        background: -webkit-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+        background: -moz-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: #b5cadf;
+    }
 }
 
 @media screen and (max-width: 800px) {
