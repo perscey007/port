@@ -21,13 +21,13 @@ font-family: 'Ubuntu', sans-serif; */
     body {
         margin: 0%;
         padding: 0%;
-        background: rgba(246, 127, 59, 0.83);
-        background: radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
-        background: -webkit-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
-        background: -moz-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
+        // background: rgba(246, 127, 59, 0.83);
+        // background: radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+        // background: -webkit-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+        // background: -moz-radial-gradient( circle farthest-side at bottom right, rgba(246, 127, 59, 0.83) 0%, #b5cadf 60%);
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-attachment: fixed;
         background-color: #b5cadf;
     }
 }
@@ -1751,7 +1751,7 @@ div.timeline-box>p {
 footer {
     background-color: rgba(68, 68, 68, 0.333);
     background-color: #87858537;
-    color: #000000ba;
+    color: white;
 }
 
 .footer-div {
@@ -1924,5 +1924,5 @@ h5 {
 }
 
 .connect {
-    color: #000000ba;
+    color: white;
 }
