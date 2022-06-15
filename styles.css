@@ -17,7 +17,6 @@ font-family: 'Ubuntu', sans-serif; */
   height: fit-content;
   margin-bottom: -10%;
   background-color: #b5cadf;
-  background-color: #b3b0b3;
 }
 
 @media screen and (min-width: 800px) {
@@ -61,6 +60,7 @@ font-family: 'Ubuntu', sans-serif; */
   font-family: "Lobster", cursive;
   font-family: "Macondo", cursive;
   text-shadow: #211e1e 1px;
+  color: #383838;
 }
 
 @media screen and (max-width: 800px) {
@@ -77,31 +77,6 @@ font-family: 'Ubuntu', sans-serif; */
   /* max-width: 1800px; */
 }
 
-/*                     
-.content {
-padding: 0px;
-margin-top: -8%;
-}
-
-.sticky {
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 5;
-background-color: rgba(111, 102, 102, 0.333);
-backdrop-filter: blur(3px);
--webkit-backdrop-filter: blur(3px);
--webkit-transition: all .3s ease-in;
--moz-transition: all .3s ease-in;
--ms-transition: all .3s ease-in;
--o-transition: all .3s ease-in;
-transition: all .3s ease-in;
-}
-
-.sticky+.content {
-padding-top: 100px;
-}
-*/
 .header-left {
   z-index: 3;
 }
@@ -125,6 +100,8 @@ padding-top: 100px;
   margin-right: 1%;
   z-index: 12;
   background-color: rgba(68, 68, 68, 0.333);
+  background-color: rgba(219, 219, 219, 0.257);
+  background-color: #b5cadfca;
   border: 0px solid white;
   border-radius: 20px;
   border-top-right-radius: 0%;
@@ -136,6 +113,7 @@ padding-top: 100px;
 
 .header-right:hover {
   background-color: rgba(193, 193, 193, 0.486);
+  background-color: rgba(221, 220, 220, 0.784);
   box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
   -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -146,9 +124,8 @@ padding-top: 100px;
 @media screen and (max-width: 650px) {
   .header-right {
     border-radius: 0px;
-    padding: 5px;
+    padding: 0px 1px;
     border: none;
-    background-color: rgba(255, 255, 255, 0);
     -webkit-box-shadow: none;
             box-shadow: none;
   }
@@ -156,7 +133,6 @@ padding-top: 100px;
     border-radius: 0px;
     padding: 5px;
     border: none;
-    background-color: rgba(255, 255, 255, 0);
     -webkit-box-shadow: none;
             box-shadow: none;
   }
@@ -194,10 +170,11 @@ padding-top: 100px;
 }
 
 ul.header-ul > li > a {
-  color: rgba(58, 56, 56, 0.785);
   color: white;
+  color: #383838;
   text-decoration: none;
   margin: 0.5rem;
+  font-weight: bold;
 }
 
 ul.header-ul > li > a:hover {
@@ -224,7 +201,9 @@ header {
   position: sticky;
   top: 0%;
   z-index: 5;
+  background-color: rgba(178, 178, 178, 0.333);
   background-color: rgba(111, 102, 102, 0.333);
+  background-color: #ffffff29;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   -webkit-transition: all 0.3s ease-in;
@@ -239,12 +218,19 @@ header {
   }
 }
 
+.svg-hamburger {
+  color: #383838;
+  width: 30px;
+  height: 30px;
+}
+
 #M-nav-ham {
   position: absolute;
   text-align: center;
   top: 90%;
   right: 5%;
   background-color: rgba(97, 96, 96, 0.576);
+  background-color: #8894a18a;
   border: 0px solid white;
   border-radius: 40px;
   border-top-right-radius: 0px;
@@ -303,7 +289,7 @@ header {
 }
 
 ul.ham-ul > li > a {
-  color: rgba(27, 21, 21, 0.889);
+  color: #383838;
   color: white;
   text-decoration: none;
   line-height: 2.5rem;
@@ -459,11 +445,12 @@ background: -moz-linear-gradient(266deg, rgba(107, 107, 107, 0) 0%, rgba(160, 16
 
 @media screen and (min-width: 1700px) {
   .h12 {
-    -webkit-transform: translateY(26rem);
-            transform: translateY(26rem);
+    -webkit-transform: translateY(66rem);
+            transform: translateY(66rem);
     padding: 5% 5%;
     margin: auto 5%;
     background-color: rgba(250, 235, 215, 0);
+    background-color: #9daec03c;
   }
 }
 
@@ -593,8 +580,7 @@ section 2 (picture) background, and header 1 main */
     font-size: 2.3rem;
   }
   ul.header-ul > li > a {
-    color: rgba(58, 56, 56, 0.785);
-    color: white;
+    color: #383838;
     text-decoration: none;
     margin: 1.5rem;
   }
@@ -640,8 +626,7 @@ section 2 (picture) background, and header 1 main */
     font-size: 2.3rem;
   }
   ul.header-ul > li > a {
-    color: rgba(58, 56, 56, 0.785);
-    color: white;
+    color: #383838;
     text-decoration: none;
     margin: 1.5rem;
   }
@@ -717,8 +702,7 @@ section 2 (picture) background, and header 1 main */
     font-size: 2.5rem;
   }
   ul.header-ul > li > a {
-    color: rgba(58, 56, 56, 0.785);
-    color: white;
+    color: #383838;
     text-decoration: none;
     margin: 1.5rem;
   }
@@ -826,6 +810,7 @@ section 2 (picture) background, and header 1 main */
             backdrop-filter: blur(10px);
     background-color: rgba(137, 137, 129, 0.409);
     background-color: rgba(111, 111, 111, 0.333);
+    background-color: #9daec03c;
     padding: 2.5%;
     padding-bottom: 3%;
     margin: 20% 5%;
@@ -841,8 +826,7 @@ section 2 (picture) background, and header 1 main */
     font-size: 2.7rem;
   }
   ul.header-ul > li > a {
-    color: rgba(58, 56, 56, 0.785);
-    color: white;
+    color: #383838;
     text-decoration: none;
     margin: 1.5rem;
   }
@@ -966,6 +950,7 @@ form > button:hover {
   border-radius: 30px;
   color: white;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .m-button:hover {
@@ -1084,6 +1069,7 @@ form > button:hover {
 
 .a12 {
   background-color: rgba(149, 148, 148, 0.312);
+  background-color: #9daec03c;
   box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
   -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1117,7 +1103,6 @@ form > button:hover {
 ------------------------------------ */
 @media screen and (min-width: 320px) and (max-width: 700px) {
   .a12 {
-    background-color: rgba(149, 148, 148, 0.312);
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1148,7 +1133,6 @@ form > button:hover {
 */
 @media screen and (min-width: 700px) and (max-width: 1280px) {
   .a12 {
-    background-color: rgba(149, 148, 148, 0.312);
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1186,7 +1170,6 @@ form > button:hover {
     background-position: 10% 50%;
   }
   .a12 {
-    background-color: rgba(149, 148, 148, 0.312);
     box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -2px 2px 7px -1px rgba(0, 0, 0, 0.59);
@@ -1448,6 +1431,7 @@ select {
 
 .exp-text2 {
   color: #000000ba;
+  color: white;
   font-size: 1.2rem;
 }
 
@@ -1989,5 +1973,9 @@ h5 {
 
 .connect {
   color: white;
+}
+
+p {
+  color: #383838 !important;
 }
 /*# sourceMappingURL=styles.css.map */
