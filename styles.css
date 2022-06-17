@@ -1574,7 +1574,7 @@ select {
 }
 
 .s7-box4 {
-  background-image: url(/img/classic-rides.jpeg);
+  background-image: url(/img/FireShot-classic-rides.png);
   margin: 5% 0;
   background-position: top;
   background-size: 250px;
@@ -1591,11 +1591,23 @@ select {
 }
 
 .s7-box6 {
-  background-image: url(/img/calc-web.jpeg);
+  background-image: url(/img/fireshot-coming-soon.png);
   margin: 5% 0;
   background-position: center;
-  background-size: cover;
+  background-size: 350px;
+}
+
+.s7-box6:hover {
   background-size: 400px;
+  border: 2px solid #f59d6a;
+  box-shadow: -2px 4px 7px -1px #ffaa79;
+  -webkit-box-shadow: -2px 4px 7px -1px #ffaa79;
+  -moz-box-shadow: -2px 4px 7px -1px #ffaa79;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
 }
 
 .s7-box1e, .s7-box2e, .s7-box3e, .s7-box4e, .s7-box5e, .s7-box6e {
