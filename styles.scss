@@ -124,6 +124,7 @@ font-family: 'Ubuntu', sans-serif; */
         // background-color: #00000000;
     }
     .header-right:hover {
+        background-color: #b5cadfca;
         border-radius: 0px;
         padding: 5px;
         border: none;
@@ -182,6 +183,8 @@ ul.header-ul>li>a:hover {
 
 header {
     position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0%;
     z-index: 5;
     background-color: #ffffff29;
@@ -298,6 +301,7 @@ ul.ham-ul>li>a {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 700px;
     position: relative;
 }
@@ -311,6 +315,12 @@ ul.ham-ul>li>a {
 @media screen and (min-width: 650px) {
     .section2 {
         background-position: 12rem 0rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section2 {
+        background-attachment: scroll;
     }
 }
 
@@ -861,6 +871,7 @@ input {
     border-radius: 20px;
     width: 90%;
     padding-left: 5%;
+    background-color: #00000000 !important;
 }
 
 ::placeholder {
@@ -894,6 +905,16 @@ form>button {
     width: 7rem;
     border-radius: 30px;
     color: white;
+}
+
+form.form1>button>a {
+    border: 0px solid;
+    background: rgba(255, 97, 6, 0);
+    height: 2rem;
+    width: 7rem;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
 }
 
 form>button:hover {
@@ -1791,14 +1812,15 @@ footer {
 }
 
 .footer-links:hover {
+    transform: translateY(10%);
     max-width: 85%;
     margin: 0%;
     padding: 0%;
-    transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
 }
 
 h5 {
@@ -1827,16 +1849,6 @@ h5 {
         max-width: 75%;
         padding: 5% 0%;
         margin: auto;
-    }
-    .footer-links:hover {
-        max-width: 85%;
-        margin: 0%;
-        padding: 0%;
-        transition: all 0.2s ease-in;
-        -webkit-transition: all 0.2s ease-in;
-        -moz-transition: all 0.2s ease-in;
-        -ms-transition: all 0.2s ease-in;
-        -o-transition: all 0.2s ease-in;
     }
     h5 {
         margin-top: 20% !important;
@@ -1867,16 +1879,6 @@ h5 {
         padding: 5% 0%;
         margin: auto;
     }
-    .footer-links:hover {
-        max-width: 85%;
-        margin: 0%;
-        padding: 0%;
-        transition: all 0.2s ease-in;
-        -webkit-transition: all 0.2s ease-in;
-        -moz-transition: all 0.2s ease-in;
-        -ms-transition: all 0.2s ease-in;
-        -o-transition: all 0.2s ease-in;
-    }
     h5 {
         margin-top: 20% !important;
         padding-top: 5%;
@@ -1906,16 +1908,6 @@ h5 {
         padding: 5% 0%;
         margin: auto;
     }
-    .footer-links:hover {
-        max-width: 85%;
-        margin: 0%;
-        padding: 0%;
-        transition: all 0.2s ease-in;
-        -webkit-transition: all 0.2s ease-in;
-        -moz-transition: all 0.2s ease-in;
-        -ms-transition: all 0.2s ease-in;
-        -o-transition: all 0.2s ease-in;
-    }
     h5 {
         margin-top: 12% !important;
         padding-top: 5%;
@@ -1933,4 +1925,19 @@ h5 {
 
 p {
     color: #383838 !important;
+}
+
+p.fcc-icon>a {
+    color: #383838 !important;
+    margin-left: 1%;
+}
+
+p.fcc-icon>a:hover {
+    transition: all 0.2s ease-in;
+    color: #ff6b16ef;
+}
+
+.bi-box-arrow-up-right:hover {
+    transition: all 0.2s ease-in;
+    color: red;
 }

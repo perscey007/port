@@ -18,6 +18,7 @@ html {
 }
 
 body {
+    min-height: 100vh;
     margin: 0%;
     padding: 0%;
     background: rgba(246, 127, 59, 0.83);
@@ -211,11 +212,19 @@ ul.ham-ul>li>a {
     }
 }
 
-input {
+input,
+textarea {
     border: 0px solid white;
     border-radius: 20px;
     width: 90%;
     padding-left: 5%;
+}
+
+textarea {
+    min-width: 90%;
+    min-height: 50px;
+    border: 0;
+    outline: none;
 }
 
 ::placeholder {
